@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brett Bender</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+    <script type="text/javascript" src="javascript/app.js"></script>
+    
+</head>
+
+<html lang="en">
+    <body>
+
+        <header>
+          <!--Navbar-->
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                <!-- <form class="form-inline">
+                  <div class="md-form my-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                  </div>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+          <!-- Navbar -->
+          <!-- Full Page Intro -->
+          <div class="view" style="background-image: url('images/canal.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light align-items-center">
+              <!-- Content -->
+              <div class="container" id="headings">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12 mb-4 white-text text-center">
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Full Stack Web Developer</strong></h5>
+                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 wow fadeInDown" data-wow-delay="0.3s"><strong>Brett Bender</strong></h1>
+                    <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>JavaScript | Node | Java | SQL | HTML</strong></h5>
+                    <!-- <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">portfolio</a>
+                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About me</a> -->
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+          <!-- Full Page Intro -->
+        </header>
+        <!-- Main navigation -->
+        <!--Main Layout-->
+        <main>
+          <div class="gray-bg">
+            <div class="container">
+              <!--Grid row-->
+              <div class="row py-5">
+                <!--Grid column-->
+                <div class="col-md-6 justify-content-center">
+                    <div class="card">
+                        <img src="images/Brett.JPG" alt="Avatar" style="width:100%">
+                        <div class="container">
+                          <h4><b>Brett Bender</b></h4> 
+                          <p>Full Stack Web Developer</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                  <h2>About Me</h2>
+                  <br>
+                  <p>I am a college grad currently working part-time at a coffee shop, but focusing entirely on learning to code. I graduated with a degree in Communication and minor in Spanish from Muskingum University. I chose Communication because at the time I was interested in working with TV and radio. At Muskingum I was both a disc jockey and Producer for the Wednesday night news on Orbit TV. After graduation I worked downtown as an engineer recruiter but the job made me realize I'm more interested in working on the technical side of things. 
+                    I then went on to teach high-school Biology due to my love for science but finally found that my true passion was learning to code.
+                  </p>
+
+                  <p>I love the challenge of logic, learning new languages, and the ability to create ideas from scratch. Creativity has always been big for me. I've been playing guitar for 6 years along with other various instruments, and also dabbled in music composition. My experience with designing and teaching lessons for students was also a fun way to think outside the box. About a year ago I started learning HTML and JavaScript for fun and I've furthered that study by enrolling in the Case Western Reserve Full Stack Bootcamp while still working.
+
+                      I am excited about the new skills I have learned and cannot wait to be part of a technical team. Coding challenges me in ways I've never been pushed before and it's a relief to finally find something I'm passionate about and want to do for the rest of my career. I'm someone who believes you should never stop learning and no line of work encapsulates that better than programming.
+                  </p>
+                  <div class="row justify-content-center">
+                    <a href="https://drive.google.com/file/d/1dGfv0aOHUdp88etZbm2cYIxlKxbBG5XJ/view?usp=sharing" class="btn btn-secondary">My Resume</a>
+                  </div>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+          </div>
+
+    <div class="container" id="portfolio">
+    <div class="row justify-content-center mt-5">
+        <h2>MY PROJECTS</h2>
+    </div>
+    <div class="row justify-content-center mt-4">
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/thyme.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">What to Eat This Thyme</h4>
+                <hr>
+                <a href="https://theluomamr.github.io/Group_Project_One/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/TheLuomamr/Group_Project_One" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/friend.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">FriendFinder</h4>
+                <hr>
+                <a href="https://mysterious-tundra-40682.herokuapp.com/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/mmusil2/FriendFinder" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img class="card-img-top" src="images/pipe.png" alt="Card image">
+          <div class="card-body">
+              <h4 class="card-title">Pipe Dreams</h4>
+              <hr>
+              <a href="https://thawing-ravine-33756.herokuapp.com/" class="btn btn-secondary">Website</a>
+              <a href="https://github.com/jphillips37/Project-2" class="btn">GitHub</a>
+          </div>
+      </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/burger.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Eat-Da-Burger</h4>
+                <hr>
+                <a href="https://peaceful-thicket-59214.herokuapp.com/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/mmusil2/burger" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/rpg.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Mortal Kombat RPG</h4>
+                <hr>
+                <a href="https://mmusil2.github.io/RPG-Game/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/mmusil2/unit-4-game" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/bamazon.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Bamazon (Node/MySql App)</h4>
+                <hr>
+                <a href="https://github.com/mmusil2/Bamazon" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/liri.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">LIRI Bot (Node App)</h4>
+                <hr>
+                <a href="https://github.com/mmusil2/liri-node-app.git" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/trivia.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">80s Movies Trivia Game</h4>
+                <hr>
+                <a href="https://mmusil2.github.io/TriviaGame/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/mmusil2/TriviaGame" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/wordnode.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Node Word Game</h4>
+                <hr>
+                <a href="https://github.com/mmusil2/Constructor-Word-Guess.git" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/word.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Marvel Word Game</h4>
+                <hr>
+                <a href="https://mmusil2.github.io/Word-Guess-Game/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/mmusil2/Word-Guess-Game" class="btn">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+        <h5>More Projects Coming Soon</h5>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+
+      <div class="row justify-content-center mt-5">
+        <h2>Contact Me</h2>
+      </div>
+
+      <div class="container" id="contact-body">
+          <div class="row mb-5">
+              <div class="col-md-2"></div>
+              <div class="col-md-4 mt-3">
+                  <form>
+                      <div class="form-group">
+                          <label for="exampleFormControlInput1">Name</label>
+                          <input type="name" class="form-control" id="input1" placeholder="Enter Name">
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleFormControlInput1">Email Address</label>
+                          <input type="email" class="form-control" id="input2" placeholder="Enter Email">
+                      </div>
+                  </form> 
+              </div> 
+              <div class="col-md-4 mt-3 mb-3">
+                  <form>
+                      <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea class="form-control" id="textArea1" rows="5"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-secondary" id="msg"> Send Message</button>
+                  </form>
+              </div>
+              <div class="col-md-2"></div>
+          </div>
+      </div>
+      </div>
+
+    </main>
+
+    <div class="row justify-content-center" id="email">
+      <div class="col-md-6 mt-3 mb-3">
+        <p>EMAIL</p>
+        <p>BENDERB73@GMAIL.COM</p>
+      </div>
+      <div class="col-md-6 mt-3 mb-3">
+        <p>PHONE</p>
+        <p>440 665 9662</p>
+      </div>
+    </div>
+    <!--Main Layout-->
+
+    <div class='row justify-content-center' id="links">
+        <nav>
+            <ul>
+                <li><a href="https://github.com/benderb64" class="links">GITHUB</a></li>
+                <li>|</li>
+                <li><a href="https://www.linkedin.com/in/brett-bender-108/" class="links">LINKEDIN</a></li>
+                <li>|</li>
+                <li><a href="https://drive.google.com/file/d/1dGfv0aOHUdp88etZbm2cYIxlKxbBG5XJ/view?usp=sharing" class="links">RESUME</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    </body>
+</html>
